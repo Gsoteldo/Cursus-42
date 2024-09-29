@@ -5,7 +5,7 @@
 
 Aquí encontrarán una colección de mis proyectos que he ido desarrollando durante mi travesía en **42 Fundación Telefónica**. Si te gusta el código que desafía las leyes de la física y la paciencia, este es tu lugar. Siéntate, relájate y disfruta del espectáculo.
 
-## Proyectos realizasoa 🛠️
+## Proyectos realizados 🛠️
 
 ### 1. **Libft: Reinventando la rueda 🔄**
 > Porque, ¿para qué usar funciones estándar si puedes escribirlas desde cero y sufrir en el proceso? Una librería personalizada que incluye esas funciones de C que pensabas que siempre estaban ahí… hasta que no lo están.
