@@ -22,7 +22,7 @@ Aquí encontrarán una colección de mis proyectos que he ido desarrollando dura
 
 - **Lo mejor**: Ahora sabrás por qué todo el mundo usa `fgets()`.
 
-### 5. **[So_Long: El laberinto infinito 🎮**
+### 5. **[So_Long: El laberinto infinito 🎮](https://github.com/Gsoteldo/Cursus-42/tree/main/so_long)**
 > Imagina crear un juego en 2D... suena fácil, ¿verdad? Hasta que empiezas a hacerlo. ¡Prepárate para perderte en un laberinto de bugs, texturas que no cargan y un personaje que no coopera!
 
 - **Lo mejor**: Ver cómo un par de píxeles se convierten en horas de trabajo.
