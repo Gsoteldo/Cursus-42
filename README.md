@@ -54,7 +54,7 @@ Aquí encontrarán una colección de mis proyectos que he ido desarrollando dura
 
 ## Cuarto Circulo
 
-### 8. **[Philosophers: Los filósofos hambrientos 🧠🍝](https://github.com/tu-usuario/tu-repo/tree/main/philosopher)**
+### 8. **[Philosophers: Los filósofos hambrientos 🧠🍝](https://github.com/Gsoteldo/Cursus-42/tree/main/philosophers)**
 > ¿Qué sucede cuando juntas filósofos, tenedores y un montón de problemas de concurrencia? Este proyecto trata de implementar el problema clásico de los **filósofos comensales**. El reto aquí no es solo comer,
 > sino evitar un desastre de "deadlocks" y "race conditions" mientras los filósofos debaten si el tenedor de la izquierda es más filosófico que el de la derecha.
 
