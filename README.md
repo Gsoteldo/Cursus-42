@@ -52,9 +52,18 @@ Aquí encontrarán una colección de mis proyectos que he ido desarrollando dura
 
 <br>
 
+## Cuarto Circulo
+
+### 8. **[Philosophers: Los filósofos hambrientos 🧠🍝](https://github.com/tu-usuario/tu-repo/tree/main/philosopher)**
+> ¿Qué sucede cuando juntas filósofos, tenedores y un montón de problemas de concurrencia? Este proyecto trata de implementar el problema clásico de los **filósofos comensales**. El reto aquí no es solo comer,
+> sino evitar un desastre de "deadlocks" y "race conditions" mientras los filósofos debaten si el tenedor de la izquierda es más filosófico que el de la derecha.
+
+- **Lo mejor**: Ver a los filósofos morir de hambre… literalmente. ¡Ah, y también el multithreading!
+
+<br>
+
 ## Próximamente... 🔮
 - **Minishell**: Cuando crear tu propia shell suena a un plan razonable.
-- **Philosophers**: Los hilos filosóficos del caos (y el hambre).
 
 <br>
 
