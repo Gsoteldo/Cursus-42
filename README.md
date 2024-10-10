@@ -12,7 +12,7 @@ Aquí encontrarán una colección de mis proyectos que he ido desarrollando dura
 ## Primer Circulo
 
 
-### 1. **Libft: Reinventando la rueda 🔄**
+### 1. **[Libft: Reinventando la rueda 🔄](https://github.com/Gsoteldo/Cursus-42/tree/main/libft)**
 > Porque, ¿para qué usar funciones estándar si puedes escribirlas desde cero y sufrir en el proceso? Una librería personalizada que incluye esas funciones de C que pensabas que siempre estaban ahí… hasta que no lo están.
 
 - **Lo mejor**: Te sentirás un dios del C. Hasta que rompa algo.
