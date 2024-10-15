@@ -2,6 +2,9 @@
 # 🚀 Proyectos de la Escuela 42 - Fundación Telefónica
 
 ¡Bienvenidos a mi rincón del caos controlado! 🤯
+<br>
+<br>
+[![gsoteldo's 42 stats](https://badge.mediaplus.ma/black/gsoteldo?1337Badge=off&42Network=off&UM6P=off)](https://github.com/oakoudad/badge42)
 
 Aquí encontrarán una colección de mis proyectos que he ido desarrollando durante mi travesía en **42 Fundación Telefónica**. Si te gusta el código que desafía las leyes de la física y la paciencia, este es tu lugar. Siéntate, relájate y disfruta del espectáculo.
 
