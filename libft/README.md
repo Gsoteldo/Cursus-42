@@ -52,15 +52,15 @@ Porque no hay nada más emocionante que trabajar con punteros.
 
 ## Instalación y uso 🛠️
 
-1. Clona el repositorio de **Libft**:
+1. Clona el repositorio de **Cursus-42**:
 
 ```bash
-git clone https://github.com/tu-usuario/libft.git
+git clone https://github.com/Gsoteldo/Cursus-42.git
 ```
 
 <br>
 
-2. Navega a la carpeta del proyyecto
+2. Navega a la carpeta del proyecto
 
 ```bash
 cd libft
