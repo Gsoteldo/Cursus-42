@@ -1,4 +1,4 @@
-# 📚 Libft - Reinventando la rueda con estilo
+# 📚 Libft - Reinventando la rueda
 
 ¡Bienvenidos a **Libft**, el proyecto donde escribirás desde cero esas funciones que ya existen... pero porque sí! 🚀
 
