@@ -95,7 +95,7 @@ Recuerda que ft_printf no soporta algunas funcionalidades avanzadas del printf o
 
 - **Paciencia**: Dominarás el arte de la paciencia (y la frustración) mientras lidias con las cadenas de formato y los tipos de datos.
 
-- **Varargs**: Aprenderás a usar va_list para manejar argumentos variables. No te preocupes si al principio parece magia negra... lo es.
+- **va_arg**: Aprenderás a usar va_list para manejar argumentos variables. No te preocupes si al principio parece magia negra... lo es.
 
 - **Impresión personalizada**: Sabrás cómo funcionan internamente las funciones de impresión y quizás, en algún universo paralelo, termines creando una versión de printf aún más poderosa (¿por qué no?).
 
