@@ -21,6 +21,21 @@ El proyecto **ft_printf** te permite imprimir lo siguiente:
 - **%X**: Imprime números en hexadecimal en mayúsculas.
 - **%%**: Imprime el símbolo de porcentaje `%`.
 
+  <br>
+
+## Ahora bien, ¿qué son las funciones variádicas? 🤔
+
+Las **funciones variádicas** son funciones que pueden recibir un número indefinido de argumentos. Es decir, puedes llamarlas con más (o menos) parámetros de los que especifica su prototipo. ¡Así es como funciona `printf`!
+
+### ¿Cómo se gestionan?
+
+Para manejar estos argumentos variables en C, usamos la librería **`stdarg.h`**, que proporciona un conjunto de macros que permiten acceder a estos argumentos adicionales:
+
+- `va_list`: Define una variable para acceder a los argumentos.
+- `va_start`: Inicializa el acceso a los argumentos variables.
+- `va_arg`: Recupera el siguiente argumento de la lista.
+- `va_end`: Limpia la lista de argumentos una vez que has terminado de usarlos.
+
 <br>
 
 ## ¿Cómo usarlo? 🚀
