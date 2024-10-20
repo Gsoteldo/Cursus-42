@@ -29,9 +29,9 @@ te asigna un fd para identificar ese archivo en tus operaciones de lectura, escr
 
 ### Los File Descriptors estándar:
 
-`0`: Entrada estándar (stdin) – donde tu programa escucha, normalmente, el teclado.
-`1`: Salida estándar (stdout) – donde tu programa escribe su salida, normalmente la consola.
-`2`: Error estándar (stderr) – donde tu programa puede escribir mensajes de error.
+- `0`: Entrada estándar (stdin) – donde tu programa escucha, normalmente, el teclado.
+- `1`: Salida estándar (stdout) – donde tu programa escribe su salida, normalmente la consola.
+- `2`: Error estándar (stderr) – donde tu programa puede escribir mensajes de error.
 
 Por ejemplo, cuando abres un archivo usando open(), obtienes un fd:
 
@@ -53,26 +53,34 @@ Ejemplo de uso de fd en get_next_line:
 
 3. **Control de memoria**: Te enfrentarás al desafío de gestionar la memoria correctamente para no tener fugas (y el valgrind no te odiará tanto). Porque, sí, el peor enemigo aquí será el famoso heap y su mejor amigo, el malloc.
 
-### Archivos del proyecto 📂
+## Archivos del proyecto 📂
 
 - `get_next_line.c`: Contiene la lógica principal para leer y devolver la siguiente línea.
 - `get_next_line_utils.c`: Funciones auxiliares para manejar cadenas y la memoria.
 - `get_next_line.h`: El archivo de cabecera con las definiciones y los prototipos de funciones.
 
-### Cómo usarlo 🚀
+## Cómo usarlo 🚀
 
-#### Clonar el repositorio
+### Clonar el repositorio
 
 Primero, clona el proyecto en tu máquina:
 ```bash
-git clone https://github.com/tu-usuario/get_next_line.git
+https://github.com/Gsoteldo/Cursus-42.git
 ```
 
-#### 
+### Compilación
+Puedes compilar los archivos .c y crear un ejecutable para probar tu función:
+```bash
+gcc -Wall -Werror -Wextra get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=32
+```
+Este ejemplo usa un BUFFER_SIZE de 32, pero puedes ajustarlo según tus necesidades (y tu nivel de paciencia).
 
+## ¿Por qué es tan divertido este proyecto? 🎉
+- **Control de memoria**: Al principio todo parece sencillo, pero cuando empiecen los **segfaults** y los errores de memoria, te darás cuenta de que este proyecto es todo un reto.
 
+- **No hay función fácil**: Aunque `get_next_line` parece ser solo una función, detrás de ella hay mucha gestión de memoria y lógica de fragmentación de cadenas que pondrá a prueba tu paciencia y habilidades en C.
 
-
+- **Buffer personalizado**: El tamaño del buffer afecta la performance y cómo se comporta la función, lo que añade otra capa de dificultad para optimizar la solución. 
 
 
 
