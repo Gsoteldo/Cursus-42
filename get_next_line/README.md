@@ -47,9 +47,34 @@ Ejemplo de uso de fd en get_next_line:
 
 ## Cómo funciona (o cómo debería funcionar) 🤔
 
-1. Lectura por bloques: La función utiliza un tamaño de buffer que defines tú mismo para leer el archivo en trozos, y con esos trozos vas montando las líneas.
+1. **Lectura por bloques**: La función utiliza un tamaño de buffer que defines tú mismo para leer el archivo en trozos, y con esos trozos vas montando las líneas.
 
-2. Concatenación inteligente: Cada vez que lees un trozo, debes verificar si contiene un salto de línea (\n). Si es así, cortas y devuelves la línea; si no, sigues leyendo hasta que encuentres uno o llegues al final del archivo.
+2. **Concatenación inteligente**: Cada vez que lees un trozo, debes verificar si contiene un salto de línea (`\n`). Si es así, cortas y devuelves la línea; si no, sigues leyendo hasta que encuentres uno o llegues al final del archivo.
 
-3. Control de memoria: Te enfrentarás al desafío de gestionar la memoria correctamente para no tener fugas (y el valgrind no te odiará tanto). Porque, sí, el peor enemigo aquí será el famoso heap y su mejor amigo, el malloc.
+3. **Control de memoria**: Te enfrentarás al desafío de gestionar la memoria correctamente para no tener fugas (y el valgrind no te odiará tanto). Porque, sí, el peor enemigo aquí será el famoso heap y su mejor amigo, el malloc.
+
+### Archivos del proyecto 📂
+
+- `get_next_line.c`: Contiene la lógica principal para leer y devolver la siguiente línea.
+- `get_next_line_utils.c`: Funciones auxiliares para manejar cadenas y la memoria.
+- `get_next_line.h`: El archivo de cabecera con las definiciones y los prototipos de funciones.
+
+### Cómo usarlo 🚀
+
+#### Clonar el repositorio
+
+Primero, clona el proyecto en tu máquina:
+```bash
+git clone https://github.com/tu-usuario/get_next_line.git
+```
+
+#### 
+
+
+
+
+
+
+
+
 
