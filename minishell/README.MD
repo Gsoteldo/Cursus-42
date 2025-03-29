@@ -120,9 +120,11 @@ ls -l | grep minishell
 
 Verifica memoria con `valgrind`:
 
+Hay que ignorar los leaks de readline
 ```bash
-valgrind --leak-check=full ./minishell
+@valgrind -s --trace-children=yes --track-fds=yes --track-origins=yes --leak-check=full ./minishell
 ```
+
 
 ## Recursos Adicionales 📚
 
