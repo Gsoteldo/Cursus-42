@@ -10,8 +10,8 @@ Tu objetivo es implementar un intérprete de comandos que permita ejecutar progr
 
 - Mostrar un **prompt interactivo**.
 - **Ejecutar comandos** y manejar argumentos.
-- Implementar **pipes (**``**)** para conectar la salida de un comando con la entrada de otro.
-- Gestionar la **redirección de entrada (**``**) y salida (**``**, **``**)**.
+- Implementar **pipes (**`|`**)** para conectar la salida de un comando con la entrada de otro.
+- Gestionar la **redirección de entrada (**`<`, `<<`**) y salida (**`>`**, **`>>`**)**.
 - Manejar **variables de entorno** (`$PATH`, `$HOME`, etc).
 - Implementar algunos **built-ins** (`echo`, `cd`, `pwd`, `export`, `unset`, `env`, `exit`).
 - Capturar y manejar **señales** (`CTRL+C`, `CTRL+D`, `CTRL+\`).
