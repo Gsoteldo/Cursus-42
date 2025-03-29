@@ -63,10 +63,17 @@ Aquí encontrarán una colección de mis proyectos que he ido desarrollando dura
 
 - **Lo mejor**: Ver a los filósofos morir de hambre… literalmente. ¡Ah, y también el multithreading!
 
+### 9. **[Minishell: Tu propio terminal desde cero 🐚](https://github.com/Gsoteldo/Cursus-42/tree/main/minishell)**
+> Porque usar Bash es demasiado fácil... Mejor nos complicamos la vida construyendo nuestra propia shell desde cero, manejando procesos, señales y tuberías hasta que la cabeza explote. ¡Prepárate para reinventar la terminal!
+
+- **Lo mejor**:  Cuando CTRL+C y CTRL+D no hacen lo que deberían.
+
 <br>
 
 ## Próximamente... 🔮
-- **Minishell**: Cuando crear tu propia shell suena a un plan razonable.
+- **CPP Modules**: Porque en 42 no solo amamos C, también nos encanta C++ (bueno, algunos lo odian, pero es parte del proceso).
+- **NetPractice**: Aprender redes nunca fue tan confuso... hasta que llegas a este proyecto.
+- **Cub3D**: Un mini DOOM en 3D con raycasting. Suena épico, hasta que las paredes no renderizan bien y todo parece sacado de un mal sueño de los 90.
 
 <br>
 
