@@ -135,7 +135,7 @@ Este proyecto no hubiera sido posible sin el incansable trabajo en equipo con **
 
 ## Autores ✒️
 - **Gsoteldo** - [GitHub](https://github.com/Gsoteldo)
-- **pauss12** - [GitHub](https://github.com/pauss12)
+- **Pauss12** - [GitHub](https://github.com/pauss12)
 
 
 
