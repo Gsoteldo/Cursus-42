@@ -12,7 +12,7 @@ Tu objetivo es implementar un intérprete de comandos que permita ejecutar progr
 - **Ejecutar comandos** y manejar argumentos.
 - Implementar **pipes (**``**)** para conectar la salida de un comando con la entrada de otro.
 - Gestionar la **redirección de entrada (**``**) y salida (**``**, **``**)**.
-- Manejar **variables de entorno**.
+- Manejar **variables de entorno** (`$PATH`, `$HOME`, etc).
 - Implementar algunos **built-ins** (`echo`, `cd`, `pwd`, `export`, `unset`, `env`, `exit`).
 - Capturar y manejar **señales** (`CTRL+C`, `CTRL+D`, `CTRL+\`).
 
@@ -21,16 +21,14 @@ Tu objetivo es implementar un intérprete de comandos que permita ejecutar progr
 Compila el proyecto con:
 
 ```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/tu-repo.git
+cd minishell
+
+# Compilar el proyecto
 make
-```
 
-Esto generará un ejecutable llamado `minishell`.
-
-## Uso 🛠️
-
-Ejecuta el shell con:
-
-```bash
+# Ejecutar
 ./minishell
 ```
 
@@ -132,6 +130,15 @@ Hay que ignorar los leaks de readline
 - [Pipes en C](https://man7.org/linux/man-pages/man2/pipe.2.html)
 - [Señales en C](https://man7.org/linux/man-pages/man7/signal.7.html)
 
+## Agradecimientos 🙌
+Este proyecto no hubiera sido posible sin el incansable trabajo en equipo con **[pauss12](https://github.com/pauss12)**, quien soportó largas horas de debugging, SIGSEGV inesperados y noches de café infinito. ¡Gracias por la paciencia y la locura compartida! 🎉
+
+## Autores ✒️
+- **Gsoteldo** - [GitHub](https://github.com/Gsoteldo)
+- **pauss12 ** - [GitHub](https://github.com/pauss12)
+
+
+
 ## Contribuciones 🛠️
 
 ¡Siéntete libre de mejorar Minishell! Puedes hacer un **fork** y enviar un **pull request** con mejoras en la funcionalidad o la estructura del código.
@@ -139,3 +146,4 @@ Hay que ignorar los leaks de readline
 ## Licencia ⚖️
 
 Este proyecto está bajo la **licencia MIT**. Puedes usarlo, modificarlo y distribuirlo libremente.
+
