@@ -139,8 +139,3 @@ Hay que ignorar los leaks de readline
 ## Licencia ⚖️
 
 Este proyecto está bajo la **licencia MIT**. Puedes usarlo, modificarlo y distribuirlo libremente.
-
----
-
-Ahora tienes un README profesional y listo para subir a GitHub. ¡Que comience la magia del shell scripting en C! 🐚🔥
-
