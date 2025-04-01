@@ -22,7 +22,8 @@ Compila el proyecto con:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/Gsoteldo/Cursus-42.git
+cd Cursus-42
 cd minishell
 
 # Compilar el proyecto
