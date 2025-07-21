@@ -10,3 +10,6 @@
 [submodule "minishell"]
 	path = minishell
 	url = https://github.com/Gsoteldo/minishell-cursus.git
+[submodule "minitalk"]
+	path = minitalk
+	url = https://github.com/Gsoteldo/minitalk-cursus.git
