@@ -16,3 +16,6 @@
 [submodule "philosopher"]
 	path = philosopher
 	url = https://github.com/Gsoteldo/philosophers-cursus.git
+[submodule "push_swap"]
+	path = push_swap
+	url = https://github.com/Gsoteldo/push_swap-cursus.git
