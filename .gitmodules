@@ -13,3 +13,6 @@
 [submodule "minitalk"]
 	path = minitalk
 	url = https://github.com/Gsoteldo/minitalk-cursus.git
+[submodule "philosopher"]
+	path = philosopher
+	url = https://github.com/Gsoteldo/philosophers-cursus.git
